@@ -1,0 +1,39 @@
+body{
+    font-family: 'Hind Madurai', sans-serif;
+    font-family: 'Mukta', sans-serif;
+    background-color: black;
+}
+
+.container {
+    padding: 40px;
+    margin: 0 auto;
+}
+
+h1 {
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 40px;
+    padding-bottom: 40px;
+    color: white;
+}
+
+#superherodex {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    grid-gap: 20px;
+}
+.card {
+    list-style: none;
+    padding:40px;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+.card-image {
+    height: 200px;
+}
+
+
+.card-publisher {
+    font-weight: bold;
+}
